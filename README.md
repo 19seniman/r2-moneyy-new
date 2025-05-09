@@ -23,7 +23,7 @@ An automated bot for interacting with the R2 Money protocol on the Sepolia testn
 1. Clone the repository:
 ```bash
 git clone https://github.com/19seniman/r2-moneyy-new.git
-cd R2Money-Auto-Bot
+cd r2-moneyy-new
 ```
 
 2. Install dependencies:
