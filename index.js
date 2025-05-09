@@ -7,7 +7,7 @@ const { EMOJI, colorText, COLORS } = require('./utils/colors');
 async function main() {
   try {
     console.log('\n----------------------------------------');
-    console.log(`${colorText('    R2 Money Bot - Airdrop Insider', COLORS.CYAN)}`);
+    console.log(`${colorText('   19Seniman From Insider', COLORS.CYAN)}`);
     console.log('----------------------------------------');
     
     console.log(`${EMOJI.INFO} ${colorText(`Loaded ${privateKeys.length} private keys from .env`, COLORS.GREEN)}`);
