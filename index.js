@@ -7,7 +7,7 @@ const { EMOJI, colorText, COLORS } = require('./utils/colors');
 async function main() {
   try {
     console.log('\n----------------------------------------');
-    console.log(`${colorText('  🍉🍉🍉 19Seniman from Insider 🍉🍉🍉 ', COLORS.CYAN)}`);
+    console.log(`${colorText('  19Seniman From Insider', COLORS.CYAN)}`);
     console.log('----------------------------------------');
     
     console.log(`${EMOJI.INFO} ${colorText(`Loaded ${privateKeys.length} private keys from .env`, COLORS.GREEN)}`);
@@ -32,7 +32,7 @@ async function main() {
         console.error(`${EMOJI.ERROR} ${colorText(`Invalid network key: ${wallets[0].networkKey || 'undefined'}. Please try again.`, COLORS.RED)}`);
         continue;
       }
-       let continueMenu = true;
+      let continueMenu = true;
       while (continueMenu) {
         const result = await showMenu(wallets);
         if (result.action === 'exit') {
